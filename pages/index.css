@@ -152,7 +152,7 @@
 .recipes__paragraph {
   max-width: 438px;
   padding-top: 24px;
-  padding-left: 80px;
+  margin-left: 80px;
   margin-bottom: 80px;
   font-family: "Noto Serif";
   font-style: normal;
