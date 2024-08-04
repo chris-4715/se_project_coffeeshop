@@ -168,9 +168,6 @@
 .recipes__videos {
   display: flex;
   justify-content: center;
-}
-
-.recipe__videos_wrapper {
   margin: 0 auto;
   margin-bottom: 215px;
 }
