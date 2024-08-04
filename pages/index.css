@@ -177,7 +177,7 @@
   justify-content: space-between;
 }
 
-.recipe__info {
+.recipes__info {
   display: flex;
   justify-content: space-between;
   margin-top: 0;
@@ -188,7 +188,7 @@
   line-height: 30px;
 }
 
-.recipe__info p {
+.recipes__info p {
   margin-top: 0;
 }
 
