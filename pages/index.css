@@ -224,7 +224,7 @@
   line-height: 52px;
 }
 
-.form__reservation {
+.reservation__form {
   border: 1px solid #838383;
   margin: 0;
   display: flex;
