@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .page {
@@ -129,6 +131,8 @@
 }
 
 .recipes {
+  border: 1px solid #000;
+  margin-bottom: 0;
   background-color: #0a2750;
   background-image: url("/images/background_recipes.svg");
   height: 100vh;
@@ -198,4 +202,121 @@
 
 .recipes__subtitle {
   padding-right: 50px;
+}
+
+.reservation {
+  height: 100vh;
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.reservation__title {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.form__reservation {
+  border: 1px solid #838383;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  border: none;
+}
+
+.form__border {
+  border: 1px solid #838383;
+  padding: 0;
+}
+
+.form__input,
+.form__label {
+  display: block;
+}
+
+.form__label {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 8px;
+}
+
+.form__input {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+  max-width: 385px;
+}
+
+.form__input::placeholder {
+  font-family: Inter;
+  color: #838383;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15px 20px;
+}
+
+.form__button {
+  border: none;
+  display: block;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  background-color: #1878dc;
+  color: #fff;
+  padding: 20px 93px;
+  margin: 32px 0;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 3s;
+  transition-delay: 0.5s;
+  transition: transform 1s ease-in-out;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+}
+
+.reservation__terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__checkbox {
+  margin: 0 auto;
+  display: inline-block;
+  margin: 0 12px 0 0;
+  height: 20px;
+  width: 20px;
+}
+
+.form__label-terms {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
 }
