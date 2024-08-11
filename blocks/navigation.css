@@ -1,3 +1,13 @@
+@keyframes smoothHover {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.5;
+  }
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -28,4 +38,8 @@
   color: #000000;
   text-decoration: none;
   font-weight: 500;
+}
+
+.nav__link:hover {
+  animation: smoothHover 0.5s forwards;
 }

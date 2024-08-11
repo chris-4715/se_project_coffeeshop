@@ -1,3 +1,13 @@
+@keyframes buttonHover {
+  from {
+    background-color: #1878dc;
+  }
+
+  to {
+    background-color: #3f96f3;
+  }
+}
+
 .reservation {
   height: 100vh;
   background-color: #d9e7ff;
@@ -90,7 +100,7 @@
 }
 
 .form__button:hover {
-  background-color: #3f96f3;
+  animation: buttonHover 0.5s forwards;
 }
 
 .reservation__terms {
