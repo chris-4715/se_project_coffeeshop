@@ -1,77 +1,80 @@
-.menu__title,
-.menu__subtitle {
-  text-align: center;
-}
-
 .menu {
   margin: 0 auto;
-  background-image: url("../images/background_menu.svg");
+  background-image: url("../../images/background_menu.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .menu__title {
   margin: 100px auto 24px;
   max-width: 700px;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  text-align: center;
 }
 
 .menu__subtitle {
   margin: 0 auto 100px;
   max-width: 700px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  text-align: center;
 }
 
-.menu__cards {
+.cards {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
-.menu__card {
+.card {
+  min-width: 540px;
   max-width: 540px;
-  margin-left: 100px;
   margin-bottom: 100px;
 }
 
-.menu__card:nth-of-type(3) {
+.card:nth-of-type(3) {
   margin-left: 0;
 }
 
-.menu__card-title {
+.card__title {
   margin-bottom: 32px;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
 }
 
-.menu__list {
+.card__menu_list {
+  padding: 0;
   list-style-type: none;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
 }
 
-.card__list_item {
+.card__list-item {
   display: flex;
   margin-bottom: 16px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
 }
 
-.card__list_divider {
+.card__list-divider {
   padding: 0 5px;
+  border-bottom: 1px solid #000;
+  flex-grow: 5;
 }

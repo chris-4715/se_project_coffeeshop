@@ -1,15 +1,4 @@
-@keyframes buttonHover {
-  from {
-    background-color: #1878dc;
-  }
-
-  to {
-    background-color: #3f96f3;
-  }
-}
-
 .reservation {
-  height: 100vh;
   background-color: #d9e7ff;
   background-image: url("../images/background_reservation.svg");
   background-repeat: no-repeat;
@@ -17,11 +6,12 @@
 }
 
 .reservation__title {
+  margin: 0;
   text-align: center;
   padding-top: 100px;
   margin-bottom: 80px;
   text-align: center;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -29,8 +19,8 @@
 }
 
 .reservation__form {
-  border: 1px solid #838383;
   margin: 0;
+  padding-bottom: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,18 +30,9 @@
   border: none;
 }
 
-.form__border {
-  border: 1px solid #838383;
-  padding: 0;
-}
-
-.form__input,
 .form__label {
   display: block;
-}
-
-.form__label {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -60,7 +41,9 @@
 }
 
 .form__input {
-  font-family: Inter;
+  display: block;
+  font-family: Inter, Arial, sans-serif;
+  border: 1px solid #838383;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -70,7 +53,7 @@
 }
 
 .form__input::placeholder {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   color: #838383;
   font-style: normal;
   font-weight: normal;
@@ -82,7 +65,7 @@
 .form__button {
   border: none;
   display: block;
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -96,11 +79,11 @@
   transition-property: background-color;
   transition-duration: 3s;
   transition-delay: 0.5s;
-  transition: transform 1s ease-in-out;
+  transition: background-color 0.3s;
 }
 
 .form__button:hover {
-  animation: buttonHover 0.5s forwards;
+  background-color: #3f96f3;
 }
 
 .reservation__terms {
@@ -118,7 +101,7 @@
 }
 
 .form__label-terms {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
