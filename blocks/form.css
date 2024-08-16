@@ -57,7 +57,7 @@
   background-color: #3f96f3;
 }
 
-.reservation__terms {
+.form__fieldset_terms {
   display: flex;
   justify-content: center;
   align-items: center;
