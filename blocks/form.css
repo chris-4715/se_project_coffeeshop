@@ -1,31 +1,3 @@
-.reservation {
-  background-color: #d9e7ff;
-  background-image: url("../images/background_reservation.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.reservation__title {
-  margin: 0;
-  text-align: center;
-  padding-top: 100px;
-  margin-bottom: 80px;
-  text-align: center;
-  font-family: Inter, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 44px;
-  line-height: 52px;
-}
-
-.reservation__form {
-  margin: 0;
-  padding-bottom: 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .form {
   border: none;
 }
@@ -44,12 +16,14 @@
   display: block;
   font-family: Inter, Arial, sans-serif;
   border: 1px solid #838383;
+  border-radius: 4px;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 32px;
   max-width: 385px;
+  padding: 15px 20px;
 }
 
 .form__input::placeholder {
@@ -59,7 +33,6 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  padding: 15px 20px;
 }
 
 .form__button {
@@ -73,13 +46,11 @@
   border-radius: 4px;
   background-color: #1878dc;
   color: #fff;
-  padding: 20px 93px;
+  padding: 15px 20px;
+  width: 100%;
   margin: 32px 0;
   cursor: pointer;
-  transition-property: background-color;
-  transition-duration: 3s;
-  transition-delay: 0.5s;
-  transition: background-color 0.3s;
+  transition: background-color 0.2s;
 }
 
 .form__button:hover {

@@ -13,6 +13,7 @@
   padding: 30px 80px 40px;
   position: relative;
   box-sizing: border-box;
+  z-index: 1;
 }
 
 .header__title {
@@ -29,7 +30,7 @@
 
 .header__title-accent {
   display: block;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", Inter, Arial;
   font-style: italic;
   font-weight: normal;
   color: #3f96f3;
@@ -37,19 +38,14 @@
 
 .header__description {
   max-width: 603px;
-  font-family: "Noto serif", Arial, sans-serif;
+  font-family: "Noto serif", Inter, Arial;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   margin-top: 28px;
+  margin-bottom: 0;
   flex-grow: 5;
-}
-
-.header__description_wrapper {
-  display: flex;
-  justify-content: space-between;
-  border: 2px solid #000;
 }
 
 .header__image {
@@ -58,21 +54,18 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: -1;
 }
 
 .header__footer {
   display: flex;
-  flex-direction: column;
-}
-
-.header__footer_info {
-  display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  font-weight: 500;
+  color: #6f6f6f;
 }
 
-.header__footer_info .header__paragraph {
-  display: block;
-  margin: 0;
+.header__paragraph {
   font-weight: 500;
+  color: #6f6f6f;
+  margin: 0;
 }
