@@ -1,6 +1,6 @@
 .menu {
   margin: 0 auto;
-  background-image: url("../../images/background_menu.svg");
+  background-image: url("../images/background_menu.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 .menu__subtitle {
   margin: 0 auto 100px;
   max-width: 700px;
-  font-family: "Noto Serif", Inter, Arial;
+  font-family: "Noto Serif", Serif, Georgia;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -30,6 +30,7 @@
 
 .menu__cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 100px;
   flex-wrap: wrap;
 }

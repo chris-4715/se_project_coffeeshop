@@ -46,11 +46,13 @@
           src="images/inside_coffee_shop.png"
           alt="Inside the coffe shop"
         />
-        <p class="header__paragraph">Hours:</p>
-        <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
         <div class="header__footer">
+          <p class="header__paragraph">Hours:</p>
+          <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
           <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
-          <span>200 Success Avenue, The Town of Triple Peaks</span>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
       <main class="content">
@@ -70,10 +72,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video_info">
-                <p class="recipes__video-caption">Aeropress recipe</p>
-                <p class="recipes__video-caption">~5 min</p>
-              </div>
+              <p class="recipes__video">
+                <span class="recipes__video-caption">Aeropress recipe</span>
+                <span class="recipes__video-caption">~5 min</span>
+              </p>
             </div>
             <div>
               <iframe
@@ -84,10 +86,10 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
               ></iframe>
-              <div class="recipes__video_info">
-                <p class="recipes__video-caption">French press recipe</p>
-                <p class="recipes__video-caption">~15 min</p>
-              </div>
+              <p class="recipes__video">
+                <span class="recipes__video-caption">French press recipe</span>
+                <span class="recipes__video-caption">~15 min</span>
+              </p>
             </div>
           </div>
         </section>
@@ -122,7 +124,7 @@
                 required
               />
               <button type="submit" class="form__button">Book a table</button>
-              <div class="form__fieldset_terms">
+              <div class="form__terms">
                 <input
                   type="checkbox"
                   id="terms"
@@ -178,7 +180,7 @@
             </div>
             <div class="card">
               <h3 class="card__title">Espresso</h3>
-              <ul class="card__menu_list">
+              <ul class="card__list">
                 <li class="card__list-item">
                   Macchiato
                   <span class="card__list-divider"></span>
@@ -203,7 +205,7 @@
             </div>
             <div class="card">
               <h3 class="card__title">Baked Goods</h3>
-              <ul class="card__menu_list">
+              <ul class="card__list">
                 <li class="card__list-item">
                   Almond Croissant
                   <span class="card__list-divider"></span>

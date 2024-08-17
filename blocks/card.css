@@ -18,7 +18,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-family: "Noto Serif", Inter, Arial;
+  font-family: "Noto Serif", Serif, Georgia;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -28,11 +28,15 @@
 .card__list-item {
   display: flex;
   margin-bottom: 16px;
-  font-family: "Noto Serif", Inter, Arial;
+  font-family: "Noto Serif", Serif, Georgia;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+}
+
+.card__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .card__list-divider {

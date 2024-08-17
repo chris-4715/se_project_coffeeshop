@@ -36,6 +36,7 @@
 }
 
 .form__button {
+  box-sizing: border-box;
   border: none;
   display: block;
   font-family: Inter, Arial, sans-serif;
@@ -46,18 +47,20 @@
   border-radius: 4px;
   background-color: #1878dc;
   color: #fff;
-  padding: 15px 20px;
+  padding: 20px 15px;
+  border-radius: 4px;
+  height: 100%;
   width: 100%;
   margin: 32px 0;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transform: transition background-color 0.2s;
 }
 
 .form__button:hover {
   background-color: #3f96f3;
 }
 
-.form__fieldset_terms {
+.form__terms {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,12 +72,5 @@
   margin: 0 12px 0 0;
   height: 20px;
   width: 20px;
-}
-
-.form__label-terms {
-  font-family: Inter, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  border-radius: 2px;
 }
