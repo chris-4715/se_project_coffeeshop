@@ -1,7 +1,6 @@
 .card {
   min-width: 540px;
   max-width: 540px;
-  margin-bottom: 100px;
 }
 
 .card__title {
@@ -18,7 +17,7 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
-  font-family: "Noto Serif", Serif, Georgia;
+  font-family: "Noto Serif", Georgia, Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -28,7 +27,7 @@
 .card__list-item {
   display: flex;
   margin-bottom: 16px;
-  font-family: "Noto Serif", Serif, Georgia;
+  font-family: "Noto Serif", Georgia, Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -37,6 +36,10 @@
 
 .card__list-item:last-child {
   margin-bottom: 0;
+}
+
+.card:last-of-type {
+  margin-bottom: 100px;
 }
 
 .card__list-divider {

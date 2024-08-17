@@ -30,7 +30,7 @@
 
 .header__title-accent {
   display: block;
-  font-family: "Noto Serif", Serif, Georgia;
+  font-family: "Noto Serif", Georgia, Serif;
   font-style: italic;
   font-weight: normal;
   color: #3f96f3;
@@ -38,7 +38,7 @@
 
 .header__description {
   max-width: 603px;
-  font-family: "Noto serif", Serif, Georgia;
+  font-family: "Noto serif", Georgia, Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;

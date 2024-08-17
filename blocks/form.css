@@ -1,5 +1,11 @@
+.reservation__form {
+  width: 100%;
+}
+
 .form__fieldset {
   border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .form__label {
@@ -13,6 +19,7 @@
 }
 
 .form__input {
+  max-width: 385px;
   display: block;
   font-family: Inter, Arial, sans-serif;
   border: 1px solid #838383;

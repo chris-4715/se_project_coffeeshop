@@ -20,7 +20,7 @@
 .menu__subtitle {
   margin: 0 auto 100px;
   max-width: 700px;
-  font-family: "Noto Serif", Serif, Georgia;
+  font-family: "Noto Serif", Georgia, Serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
