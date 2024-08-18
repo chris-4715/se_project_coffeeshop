@@ -1,5 +1,10 @@
 .reservation__form {
-  width: 100%;
+  margin: 0;
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
 }
 
 .form__fieldset {
@@ -19,6 +24,7 @@
 }
 
 .form__input {
+  box-sizing: border-box;
   max-width: 385px;
   display: block;
   font-family: Inter, Arial, sans-serif;
@@ -29,7 +35,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 32px;
-  max-width: 385px;
+  width: 385px;
   padding: 15px 20px;
 }
 
@@ -57,7 +63,7 @@
   padding: 20px 15px;
   border-radius: 4px;
   height: 100%;
-  width: 100%;
+  width: 385px;
   margin: 32px 0;
   cursor: pointer;
   transform: transition background-color 0.2s;
