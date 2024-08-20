@@ -1,6 +1,7 @@
 .menu {
   margin: 0 auto;
   margin-bottom: 0;
+  padding-bottom: 100px;
   background-image: url("../images/background_menu.svg");
   background-size: cover;
   background-position: center;
