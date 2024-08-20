@@ -3,7 +3,7 @@
   background-image: url("../images/background_reservation.svg");
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 120px;
+  padding-bottom: 0;
 }
 
 .reservation__title {
